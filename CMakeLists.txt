@@ -1,0 +1,8 @@
+cmake_minimum_required(VERSION 3.9.1)
+project(OrderManager)
+set(CMAKE_CXX_STANDARD 14)
+include_directories(include)
+set(CMAKE_CXX_FLAGS "${CMAKE_CXX_FLAGS} -Wall")
+set(EXECUTABLE_OUTPUT_PATH ${CMAKE_BINARY_DIR}/bin)
+file(GLOB SOURCES "src/*.cpp")
+add_executable(order_manager ${SOURCES})
