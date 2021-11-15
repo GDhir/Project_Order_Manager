@@ -5,13 +5,14 @@
 #include "Utils.hpp"
 #include "InvalidInputException.hpp"
 
-class PrintOrderParser: public OrderParser {
+/*The print order parser parses the individual tokens when the order string
+asks to print the order details */
 
-  public:
+class PrintOrderParser : public OrderParser
+{
 
-    void parseDetails( const std::vector<std::string>& actionVal, OrderDetails& details );
-
-
+public:
+  void parseDetails(const std::vector<std::string> &actionVal, OrderDetails &details);
 };
 
 #endif

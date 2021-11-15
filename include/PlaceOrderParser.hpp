@@ -5,12 +5,20 @@
 #include "Utils.hpp"
 #include "InvalidInputException.hpp"
 
-class PlaceOrderParser: public OrderParser {
+/*The place order parser parses the individual order details. 
 
-  public:
+When the order string contains an "O", the order is placed and the
+PlaceOrderParser is used. The interface parses individual details to 
+find if there is an issue. 
 
-    void parseDetails( const std::vector<std::string>& actionVal, OrderDetails& details );
+If no exception is thrown, the struct OrderDetails is successfully populated
+with the details of the order. */
 
+class PlaceOrderParser : public OrderParser
+{
+
+public:
+  void parseDetails(const std::vector<std::string> &actionVal, OrderDetails &details);
 };
 
 #endif

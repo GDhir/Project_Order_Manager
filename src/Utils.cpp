@@ -1,74 +1,76 @@
 #include "Utils.hpp"
 
-bool isInteger(const std::string& str)
+bool isInteger(const std::string &str)
 {
-  for (char const &c : str) {
-      if (std::isdigit(c) == 0) return false;
+  for (char const &c : str)
+  {
+    if (std::isdigit(c) == 0)
+      return false;
   }
   return true;
 }
 
-bool isFloat(const std::string& str) {
+bool isFloat(const std::string &str)
+{
 
   bool dotPresent{false};
 
-  if( !isdigit( str[0] ) )
+  if (!isdigit(str[0]))
     return false;
 
-  for( int i = 1; i < str.size(); i++ ) {
+  for (int i = 1; i < static_cast<int>( str.size() ); i++)
+  {
 
-    if( str[i] == '.' && !dotPresent ) {
+    if (str[i] == '.' && !dotPresent)
+    {
       dotPresent = true;
     }
-    else if( !isdigit( str[i] ) )
+    else if (!isdigit(str[i]))
       return false;
-
   }
 
   return true;
-
 }
 
-void removeLeadingSpace( std::string& str) {
+void removeLeadingSpace(std::string &str)
+{
 
   int i{0};
-  while( str[i] == ' ' ) {
+  while (str[i] == ' ')
+  {
 
     i++;
-
   }
 
   str = str.substr(i);
-
 }
 
-bool LessCompare::operator()( const OrderDetails& left, const OrderDetails& right ) {
+bool LessCompare::operator()(const OrderDetails &left, const OrderDetails &right)
+{
 
-    if( left.orderValue == right.orderValue ) {
+  if (left.orderValue == right.orderValue)
+  {
 
     return left.orderID > right.orderID;
-
-    }
-    else {
+  }
+  else
+  {
 
     return left.orderValue < right.orderValue;
-
-    }
-
+  }
 }
 
+bool GreaterCompare::operator()(const OrderDetails &left, const OrderDetails &right)
+{
 
-bool GreaterCompare::operator()( const OrderDetails& left, const OrderDetails& right ) {
-
-if( left.orderValue == right.orderValue ) {
+  if (left.orderValue == right.orderValue)
+  {
 
     return left.orderID > right.orderID;
-
-}
-else {
+  }
+  else
+  {
 
     return left.orderValue > right.orderValue;
-
-}
-
+  }
 }

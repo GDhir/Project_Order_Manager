@@ -5,14 +5,19 @@
 #include "Utils.hpp"
 #include "InvalidInputException.hpp"
 
-class PrintOrderExecuter: public OrderExecuterBase {
+/*The print order executer iterates over the multisets corresponding to
+the buy side and the sell side to populate the output. The multisets contain
+the order in price-time priority. 
 
-    std::string createOutput( const OrderDetails& details );
+As a result, the output is also visible in price-time (FIFO) priority */
 
-  public:
+class PrintOrderExecuter : public OrderExecuterBase
+{
 
-    virtual results_t executeActions( BuyMultiset& buySet, SellMultiset& sellSet, BuyMap& buyMap, SellMap& sellMap, OrderDetails& orderDetails ) override;
-    
+  std::string createOutput(const OrderDetails &details);
+
+public:
+  virtual results_t executeActions(BuyMultiset &buySet, SellMultiset &sellSet, BuyMap &buyMap, SellMap &sellMap, OrderDetails &orderDetails) override;
 };
 
 #endif

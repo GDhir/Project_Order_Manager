@@ -231,33 +231,6 @@ src/OrderCompiler.cpp.s:
 	$(MAKE) -f CMakeFiles/order_manager.dir/build.make CMakeFiles/order_manager.dir/src/OrderCompiler.cpp.s
 .PHONY : src/OrderCompiler.cpp.s
 
-src/OrderExecuterBase.o: src/OrderExecuterBase.cpp.o
-
-.PHONY : src/OrderExecuterBase.o
-
-# target to build an object file
-src/OrderExecuterBase.cpp.o:
-	$(MAKE) -f CMakeFiles/order_manager.dir/build.make CMakeFiles/order_manager.dir/src/OrderExecuterBase.cpp.o
-.PHONY : src/OrderExecuterBase.cpp.o
-
-src/OrderExecuterBase.i: src/OrderExecuterBase.cpp.i
-
-.PHONY : src/OrderExecuterBase.i
-
-# target to preprocess a source file
-src/OrderExecuterBase.cpp.i:
-	$(MAKE) -f CMakeFiles/order_manager.dir/build.make CMakeFiles/order_manager.dir/src/OrderExecuterBase.cpp.i
-.PHONY : src/OrderExecuterBase.cpp.i
-
-src/OrderExecuterBase.s: src/OrderExecuterBase.cpp.s
-
-.PHONY : src/OrderExecuterBase.s
-
-# target to generate assembly for a file
-src/OrderExecuterBase.cpp.s:
-	$(MAKE) -f CMakeFiles/order_manager.dir/build.make CMakeFiles/order_manager.dir/src/OrderExecuterBase.cpp.s
-.PHONY : src/OrderExecuterBase.cpp.s
-
 src/OrderParser.o: src/OrderParser.cpp.o
 
 .PHONY : src/OrderParser.o
@@ -549,9 +522,6 @@ help:
 	@echo "... src/OrderCompiler.o"
 	@echo "... src/OrderCompiler.i"
 	@echo "... src/OrderCompiler.s"
-	@echo "... src/OrderExecuterBase.o"
-	@echo "... src/OrderExecuterBase.i"
-	@echo "... src/OrderExecuterBase.s"
 	@echo "... src/OrderParser.o"
 	@echo "... src/OrderParser.i"
 	@echo "... src/OrderParser.s"

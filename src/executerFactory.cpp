@@ -1,18 +1,22 @@
 #include "executerFactory.hpp"
 
-std::unique_ptr<OrderExecuterBase> executerFactory( char type ) {
+std::unique_ptr<OrderExecuterBase> executerFactory(char type)
+{
 
-  if( type == 'X' ){
+  if (type == 'X')
+  {
     return std::make_unique<CancelOrderExecuter>();
   }
-  else if( type == 'O' ){
+  else if (type == 'O')
+  {
     return std::make_unique<PlaceOrderExecuter>();
   }
-  else if( type == 'P' ){
+  else if (type == 'P')
+  {
     return std::make_unique<PrintOrderExecuter>();
   }
-  else {
+  else
+  {
     throw "Invalid Input";
   }
-
 }

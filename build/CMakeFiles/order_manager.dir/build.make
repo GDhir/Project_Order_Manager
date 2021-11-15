@@ -153,33 +153,9 @@ CMakeFiles/order_manager.dir/src/OrderCompiler.cpp.o.provides: CMakeFiles/order_
 CMakeFiles/order_manager.dir/src/OrderCompiler.cpp.o.provides.build: CMakeFiles/order_manager.dir/src/OrderCompiler.cpp.o
 
 
-CMakeFiles/order_manager.dir/src/OrderExecuterBase.cpp.o: CMakeFiles/order_manager.dir/flags.make
-CMakeFiles/order_manager.dir/src/OrderExecuterBase.cpp.o: ../src/OrderExecuterBase.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/gaurav/Documents/Project_Order_Manager/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/order_manager.dir/src/OrderExecuterBase.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/order_manager.dir/src/OrderExecuterBase.cpp.o -c /home/gaurav/Documents/Project_Order_Manager/src/OrderExecuterBase.cpp
-
-CMakeFiles/order_manager.dir/src/OrderExecuterBase.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/order_manager.dir/src/OrderExecuterBase.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/gaurav/Documents/Project_Order_Manager/src/OrderExecuterBase.cpp > CMakeFiles/order_manager.dir/src/OrderExecuterBase.cpp.i
-
-CMakeFiles/order_manager.dir/src/OrderExecuterBase.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/order_manager.dir/src/OrderExecuterBase.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/gaurav/Documents/Project_Order_Manager/src/OrderExecuterBase.cpp -o CMakeFiles/order_manager.dir/src/OrderExecuterBase.cpp.s
-
-CMakeFiles/order_manager.dir/src/OrderExecuterBase.cpp.o.requires:
-
-.PHONY : CMakeFiles/order_manager.dir/src/OrderExecuterBase.cpp.o.requires
-
-CMakeFiles/order_manager.dir/src/OrderExecuterBase.cpp.o.provides: CMakeFiles/order_manager.dir/src/OrderExecuterBase.cpp.o.requires
-	$(MAKE) -f CMakeFiles/order_manager.dir/build.make CMakeFiles/order_manager.dir/src/OrderExecuterBase.cpp.o.provides.build
-.PHONY : CMakeFiles/order_manager.dir/src/OrderExecuterBase.cpp.o.provides
-
-CMakeFiles/order_manager.dir/src/OrderExecuterBase.cpp.o.provides.build: CMakeFiles/order_manager.dir/src/OrderExecuterBase.cpp.o
-
-
 CMakeFiles/order_manager.dir/src/OrderParser.cpp.o: CMakeFiles/order_manager.dir/flags.make
 CMakeFiles/order_manager.dir/src/OrderParser.cpp.o: ../src/OrderParser.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/gaurav/Documents/Project_Order_Manager/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/order_manager.dir/src/OrderParser.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/gaurav/Documents/Project_Order_Manager/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/order_manager.dir/src/OrderParser.cpp.o"
 	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/order_manager.dir/src/OrderParser.cpp.o -c /home/gaurav/Documents/Project_Order_Manager/src/OrderParser.cpp
 
 CMakeFiles/order_manager.dir/src/OrderParser.cpp.i: cmake_force
@@ -203,7 +179,7 @@ CMakeFiles/order_manager.dir/src/OrderParser.cpp.o.provides.build: CMakeFiles/or
 
 CMakeFiles/order_manager.dir/src/OrderScanner.cpp.o: CMakeFiles/order_manager.dir/flags.make
 CMakeFiles/order_manager.dir/src/OrderScanner.cpp.o: ../src/OrderScanner.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/gaurav/Documents/Project_Order_Manager/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object CMakeFiles/order_manager.dir/src/OrderScanner.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/gaurav/Documents/Project_Order_Manager/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/order_manager.dir/src/OrderScanner.cpp.o"
 	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/order_manager.dir/src/OrderScanner.cpp.o -c /home/gaurav/Documents/Project_Order_Manager/src/OrderScanner.cpp
 
 CMakeFiles/order_manager.dir/src/OrderScanner.cpp.i: cmake_force
@@ -227,7 +203,7 @@ CMakeFiles/order_manager.dir/src/OrderScanner.cpp.o.provides.build: CMakeFiles/o
 
 CMakeFiles/order_manager.dir/src/PlaceOrderExecuter.cpp.o: CMakeFiles/order_manager.dir/flags.make
 CMakeFiles/order_manager.dir/src/PlaceOrderExecuter.cpp.o: ../src/PlaceOrderExecuter.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/gaurav/Documents/Project_Order_Manager/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building CXX object CMakeFiles/order_manager.dir/src/PlaceOrderExecuter.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/gaurav/Documents/Project_Order_Manager/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object CMakeFiles/order_manager.dir/src/PlaceOrderExecuter.cpp.o"
 	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/order_manager.dir/src/PlaceOrderExecuter.cpp.o -c /home/gaurav/Documents/Project_Order_Manager/src/PlaceOrderExecuter.cpp
 
 CMakeFiles/order_manager.dir/src/PlaceOrderExecuter.cpp.i: cmake_force
@@ -251,7 +227,7 @@ CMakeFiles/order_manager.dir/src/PlaceOrderExecuter.cpp.o.provides.build: CMakeF
 
 CMakeFiles/order_manager.dir/src/PlaceOrderParser.cpp.o: CMakeFiles/order_manager.dir/flags.make
 CMakeFiles/order_manager.dir/src/PlaceOrderParser.cpp.o: ../src/PlaceOrderParser.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/gaurav/Documents/Project_Order_Manager/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building CXX object CMakeFiles/order_manager.dir/src/PlaceOrderParser.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/gaurav/Documents/Project_Order_Manager/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building CXX object CMakeFiles/order_manager.dir/src/PlaceOrderParser.cpp.o"
 	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/order_manager.dir/src/PlaceOrderParser.cpp.o -c /home/gaurav/Documents/Project_Order_Manager/src/PlaceOrderParser.cpp
 
 CMakeFiles/order_manager.dir/src/PlaceOrderParser.cpp.i: cmake_force
@@ -275,7 +251,7 @@ CMakeFiles/order_manager.dir/src/PlaceOrderParser.cpp.o.provides.build: CMakeFil
 
 CMakeFiles/order_manager.dir/src/PrintOrderExecuter.cpp.o: CMakeFiles/order_manager.dir/flags.make
 CMakeFiles/order_manager.dir/src/PrintOrderExecuter.cpp.o: ../src/PrintOrderExecuter.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/gaurav/Documents/Project_Order_Manager/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Building CXX object CMakeFiles/order_manager.dir/src/PrintOrderExecuter.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/gaurav/Documents/Project_Order_Manager/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building CXX object CMakeFiles/order_manager.dir/src/PrintOrderExecuter.cpp.o"
 	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/order_manager.dir/src/PrintOrderExecuter.cpp.o -c /home/gaurav/Documents/Project_Order_Manager/src/PrintOrderExecuter.cpp
 
 CMakeFiles/order_manager.dir/src/PrintOrderExecuter.cpp.i: cmake_force
@@ -299,7 +275,7 @@ CMakeFiles/order_manager.dir/src/PrintOrderExecuter.cpp.o.provides.build: CMakeF
 
 CMakeFiles/order_manager.dir/src/PrintOrderParser.cpp.o: CMakeFiles/order_manager.dir/flags.make
 CMakeFiles/order_manager.dir/src/PrintOrderParser.cpp.o: ../src/PrintOrderParser.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/gaurav/Documents/Project_Order_Manager/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Building CXX object CMakeFiles/order_manager.dir/src/PrintOrderParser.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/gaurav/Documents/Project_Order_Manager/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Building CXX object CMakeFiles/order_manager.dir/src/PrintOrderParser.cpp.o"
 	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/order_manager.dir/src/PrintOrderParser.cpp.o -c /home/gaurav/Documents/Project_Order_Manager/src/PrintOrderParser.cpp
 
 CMakeFiles/order_manager.dir/src/PrintOrderParser.cpp.i: cmake_force
@@ -323,7 +299,7 @@ CMakeFiles/order_manager.dir/src/PrintOrderParser.cpp.o.provides.build: CMakeFil
 
 CMakeFiles/order_manager.dir/src/SimpleCross.cpp.o: CMakeFiles/order_manager.dir/flags.make
 CMakeFiles/order_manager.dir/src/SimpleCross.cpp.o: ../src/SimpleCross.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/gaurav/Documents/Project_Order_Manager/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_12) "Building CXX object CMakeFiles/order_manager.dir/src/SimpleCross.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/gaurav/Documents/Project_Order_Manager/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Building CXX object CMakeFiles/order_manager.dir/src/SimpleCross.cpp.o"
 	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/order_manager.dir/src/SimpleCross.cpp.o -c /home/gaurav/Documents/Project_Order_Manager/src/SimpleCross.cpp
 
 CMakeFiles/order_manager.dir/src/SimpleCross.cpp.i: cmake_force
@@ -347,7 +323,7 @@ CMakeFiles/order_manager.dir/src/SimpleCross.cpp.o.provides.build: CMakeFiles/or
 
 CMakeFiles/order_manager.dir/src/Utils.cpp.o: CMakeFiles/order_manager.dir/flags.make
 CMakeFiles/order_manager.dir/src/Utils.cpp.o: ../src/Utils.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/gaurav/Documents/Project_Order_Manager/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_13) "Building CXX object CMakeFiles/order_manager.dir/src/Utils.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/gaurav/Documents/Project_Order_Manager/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_12) "Building CXX object CMakeFiles/order_manager.dir/src/Utils.cpp.o"
 	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/order_manager.dir/src/Utils.cpp.o -c /home/gaurav/Documents/Project_Order_Manager/src/Utils.cpp
 
 CMakeFiles/order_manager.dir/src/Utils.cpp.i: cmake_force
@@ -371,7 +347,7 @@ CMakeFiles/order_manager.dir/src/Utils.cpp.o.provides.build: CMakeFiles/order_ma
 
 CMakeFiles/order_manager.dir/src/executerFactory.cpp.o: CMakeFiles/order_manager.dir/flags.make
 CMakeFiles/order_manager.dir/src/executerFactory.cpp.o: ../src/executerFactory.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/gaurav/Documents/Project_Order_Manager/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_14) "Building CXX object CMakeFiles/order_manager.dir/src/executerFactory.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/gaurav/Documents/Project_Order_Manager/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_13) "Building CXX object CMakeFiles/order_manager.dir/src/executerFactory.cpp.o"
 	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/order_manager.dir/src/executerFactory.cpp.o -c /home/gaurav/Documents/Project_Order_Manager/src/executerFactory.cpp
 
 CMakeFiles/order_manager.dir/src/executerFactory.cpp.i: cmake_force
@@ -395,7 +371,7 @@ CMakeFiles/order_manager.dir/src/executerFactory.cpp.o.provides.build: CMakeFile
 
 CMakeFiles/order_manager.dir/src/parserFactory.cpp.o: CMakeFiles/order_manager.dir/flags.make
 CMakeFiles/order_manager.dir/src/parserFactory.cpp.o: ../src/parserFactory.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/gaurav/Documents/Project_Order_Manager/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_15) "Building CXX object CMakeFiles/order_manager.dir/src/parserFactory.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/gaurav/Documents/Project_Order_Manager/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_14) "Building CXX object CMakeFiles/order_manager.dir/src/parserFactory.cpp.o"
 	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/order_manager.dir/src/parserFactory.cpp.o -c /home/gaurav/Documents/Project_Order_Manager/src/parserFactory.cpp
 
 CMakeFiles/order_manager.dir/src/parserFactory.cpp.i: cmake_force
@@ -423,7 +399,6 @@ order_manager_OBJECTS = \
 "CMakeFiles/order_manager.dir/src/CancelOrderParser.cpp.o" \
 "CMakeFiles/order_manager.dir/src/InvalidInputException.cpp.o" \
 "CMakeFiles/order_manager.dir/src/OrderCompiler.cpp.o" \
-"CMakeFiles/order_manager.dir/src/OrderExecuterBase.cpp.o" \
 "CMakeFiles/order_manager.dir/src/OrderParser.cpp.o" \
 "CMakeFiles/order_manager.dir/src/OrderScanner.cpp.o" \
 "CMakeFiles/order_manager.dir/src/PlaceOrderExecuter.cpp.o" \
@@ -442,7 +417,6 @@ bin/order_manager: CMakeFiles/order_manager.dir/src/CancelOrderExecuter.cpp.o
 bin/order_manager: CMakeFiles/order_manager.dir/src/CancelOrderParser.cpp.o
 bin/order_manager: CMakeFiles/order_manager.dir/src/InvalidInputException.cpp.o
 bin/order_manager: CMakeFiles/order_manager.dir/src/OrderCompiler.cpp.o
-bin/order_manager: CMakeFiles/order_manager.dir/src/OrderExecuterBase.cpp.o
 bin/order_manager: CMakeFiles/order_manager.dir/src/OrderParser.cpp.o
 bin/order_manager: CMakeFiles/order_manager.dir/src/OrderScanner.cpp.o
 bin/order_manager: CMakeFiles/order_manager.dir/src/PlaceOrderExecuter.cpp.o
@@ -455,7 +429,7 @@ bin/order_manager: CMakeFiles/order_manager.dir/src/executerFactory.cpp.o
 bin/order_manager: CMakeFiles/order_manager.dir/src/parserFactory.cpp.o
 bin/order_manager: CMakeFiles/order_manager.dir/build.make
 bin/order_manager: CMakeFiles/order_manager.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/gaurav/Documents/Project_Order_Manager/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_16) "Linking CXX executable bin/order_manager"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/gaurav/Documents/Project_Order_Manager/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_15) "Linking CXX executable bin/order_manager"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/order_manager.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
@@ -467,7 +441,6 @@ CMakeFiles/order_manager.dir/requires: CMakeFiles/order_manager.dir/src/CancelOr
 CMakeFiles/order_manager.dir/requires: CMakeFiles/order_manager.dir/src/CancelOrderParser.cpp.o.requires
 CMakeFiles/order_manager.dir/requires: CMakeFiles/order_manager.dir/src/InvalidInputException.cpp.o.requires
 CMakeFiles/order_manager.dir/requires: CMakeFiles/order_manager.dir/src/OrderCompiler.cpp.o.requires
-CMakeFiles/order_manager.dir/requires: CMakeFiles/order_manager.dir/src/OrderExecuterBase.cpp.o.requires
 CMakeFiles/order_manager.dir/requires: CMakeFiles/order_manager.dir/src/OrderParser.cpp.o.requires
 CMakeFiles/order_manager.dir/requires: CMakeFiles/order_manager.dir/src/OrderScanner.cpp.o.requires
 CMakeFiles/order_manager.dir/requires: CMakeFiles/order_manager.dir/src/PlaceOrderExecuter.cpp.o.requires

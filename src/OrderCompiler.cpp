@@ -1,22 +1,22 @@
 #include "OrderCompiler.hpp"
 #include "parserFactory.hpp"
 
-void OrderCompiler::compileOrder( std::string& orderStr ) {
+void OrderCompiler::compileOrder(std::string &orderStr)
+{
 
   orderTokens = {};
 
-  scanner.scanAndTokenizeOrder( orderStr, orderTokens );
+  scanner.scanAndTokenizeOrder(orderStr, orderTokens);
 
-  parser->parseAction( orderTokens[0], details );
+  parser->parseAction(orderTokens[0], details);
 
-  parser = parserFactory( details.action );
+  parser = parserFactory(details.action);
 
-  parser->parseDetails( orderTokens, details );
-
+  parser->parseDetails(orderTokens, details);
 }
 
-OrderDetails OrderCompiler::getOrderDetails() {
+OrderDetails OrderCompiler::getOrderDetails()
+{
 
   return details;
-
 }

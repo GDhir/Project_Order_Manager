@@ -3,7 +3,6 @@ file(REMOVE_RECURSE
   "CMakeFiles/order_manager.dir/src/CancelOrderParser.cpp.o"
   "CMakeFiles/order_manager.dir/src/InvalidInputException.cpp.o"
   "CMakeFiles/order_manager.dir/src/OrderCompiler.cpp.o"
-  "CMakeFiles/order_manager.dir/src/OrderExecuterBase.cpp.o"
   "CMakeFiles/order_manager.dir/src/OrderParser.cpp.o"
   "CMakeFiles/order_manager.dir/src/OrderScanner.cpp.o"
   "CMakeFiles/order_manager.dir/src/PlaceOrderExecuter.cpp.o"

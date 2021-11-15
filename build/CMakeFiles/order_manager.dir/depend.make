@@ -27,10 +27,6 @@ CMakeFiles/order_manager.dir/src/OrderCompiler.cpp.o: ../include/Utils.hpp
 CMakeFiles/order_manager.dir/src/OrderCompiler.cpp.o: ../include/parserFactory.hpp
 CMakeFiles/order_manager.dir/src/OrderCompiler.cpp.o: ../src/OrderCompiler.cpp
 
-CMakeFiles/order_manager.dir/src/OrderExecuterBase.cpp.o: ../include/OrderExecuterBase.hpp
-CMakeFiles/order_manager.dir/src/OrderExecuterBase.cpp.o: ../include/Utils.hpp
-CMakeFiles/order_manager.dir/src/OrderExecuterBase.cpp.o: ../src/OrderExecuterBase.cpp
-
 CMakeFiles/order_manager.dir/src/OrderParser.cpp.o: ../include/InvalidInputException.hpp
 CMakeFiles/order_manager.dir/src/OrderParser.cpp.o: ../include/OrderParser.hpp
 CMakeFiles/order_manager.dir/src/OrderParser.cpp.o: ../include/Utils.hpp

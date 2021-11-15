@@ -6,23 +6,25 @@
 #include <memory>
 #include "InvalidInputException.hpp"
 
+/* The OrderParser base class is an abstract interface which is extended by derived classes
+  to parse individual orders.
+  
+  The Derived classes implement this interface based on the nature of the order*/
+
 class OrderParser
 {
 
-  protected:
+protected:
+  void parseOrderID(const std::string &orderID, OrderDetails &details);
 
-    void parseOrderID( const std::string& orderID, OrderDetails& details );
+public:
+  virtual void parseDetails(const std::vector<std::string> &actionVal, OrderDetails &details) = 0;
 
-  public:
+  void parseAction(const std::string &action, OrderDetails &details);
 
-    virtual void parseDetails( const std::vector<std::string>& actionVal, OrderDetails& details ) = 0;
+  OrderParser() = default;
 
-    void parseAction( const std::string& action, OrderDetails& details );
-
-    OrderParser() = default;
-
-    virtual ~OrderParser(){};
-
+  virtual ~OrderParser(){};
 };
 
-# endif
+#endif

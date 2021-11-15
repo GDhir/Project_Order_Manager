@@ -1,11 +1,10 @@
 #include "PrintOrderParser.hpp"
 
-  void PrintOrderParser::parseDetails( const std::vector<std::string>& actionVal, OrderDetails& details ) {
+void PrintOrderParser::parseDetails(const std::vector<std::string> &actionVal, OrderDetails &details)
+{
+  if (actionVal.size() != 1)
+  {
 
-    if( actionVal.size() != 1 ) {
-
-      throw InvalidInputException( "InvalidPrintAction" );
-
-    }
-
+    throw InvalidInputException("InvalidPrintAction");
   }
+}

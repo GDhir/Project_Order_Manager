@@ -122,7 +122,6 @@ F 10008 IBM 3 102.00000
 #include "OrderExecuterBase.hpp"
 #include "executerFactory.hpp"
 
-
 class SimpleCross
 {
 
@@ -133,47 +132,45 @@ class SimpleCross
   OrderCompiler compiler;
 
 public:
-    results_t action(const std::string& line) { 
-      
-      try {
+  results_t action(const std::string &line)
+  {
+    try
+    {
+      compiler.compileOrder(const_cast<std::string &>(line));
+      auto details = compiler.getOrderDetails();
+      auto executer = executerFactory(details.action);
 
-        compiler.compileOrder( const_cast<std::string&>( line ) );
-        auto details = compiler.getOrderDetails();
-        auto executer = executerFactory( details.action );
-
-        auto results = executer->executeActions( buySet, sellSet, buyMap, sellMap, details ); 
-        return results;
-
-      }
-      catch( InvalidInputException& ex ) {
-
-        results_t results;
-        results.push_back( ex.what() );
-        return results;
-
-      } 
-      catch( const std::string& errorStr ) {
-
-        std::cerr << errorStr;
-
-      }
-      
+      auto results = executer->executeActions(buySet, sellSet, buyMap, sellMap, details);
+      return results;
     }
+    catch (InvalidInputException &ex)
+    {
+
+      results_t results;
+      results.push_back(ex.what());
+      return results;
+    }
+    catch (const std::string &errorStr)
+    {
+      results_t results;
+      std::cerr << errorStr;
+      return results;
+    }
+  }
 };
 
 int main(int argc, char **argv)
 {
-    SimpleCross scross;
-    std::string line;
-    std::ifstream actions("actions1.txt", std::ios::in);
-    while (std::getline(actions, line))
+  SimpleCross scross;
+  std::string line;
+  std::ifstream actions("../../actions.txt", std::ios::in);
+  while (std::getline(actions, line))
+  {
+    results_t results = scross.action(line);
+    for (results_t::const_iterator it = results.begin(); it != results.end(); ++it)
     {
-        results_t results = scross.action(line);
-        for (results_t::const_iterator it=results.begin(); it!=results.end(); ++it)
-        {
-            std::cout << *it << std::endl;
-        }
+      std::cout << *it << std::endl;
     }
-    return 0;
+  }
+  return 0;
 }
-

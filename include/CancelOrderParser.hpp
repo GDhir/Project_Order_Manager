@@ -7,12 +7,14 @@
 #include <string>
 #include "Utils.hpp"
 
-class CancelOrderParser: public OrderParser {
+/*The CancelOrderParser implements the parseDetails interface to parse the order tokens
+when an order is cancelled. */
 
-  public:
+class CancelOrderParser : public OrderParser
+{
 
-    void parseDetails( const std::vector<std::string>& actionVal, OrderDetails& details ) override;
-
+public:
+  void parseDetails(const std::vector<std::string> &actionVal, OrderDetails &details) override;
 };
 
 #endif
