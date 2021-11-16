@@ -110,6 +110,17 @@ F 10007 IBM 10 101.00000
 F 10010 IBM 3 102.00000
 F 10008 IBM 3 102.00000
 
+Order Manager: Application which executes orders placed by a user. The orders can be placed
+on the buy or the sell side. Additionally, the application also supports cancellation and 
+printing the orders placed earlier. 
+
+The application comes with a built in compiler which parses each individual order and throws exception
+when the order is invalid.
+
+Software Architecture Highlights:
+
+SimpleCross  
+
 */
 
 #include <string>
