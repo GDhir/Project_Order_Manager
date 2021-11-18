@@ -4,7 +4,9 @@ Application which executes orders placed by a user. The orders can be placed on 
 Additionally, the application also supports cancellation of and printing of the orders placed earlier. 
 
 The application comes with a built in small compiler which parses each individual order and throws exception
-when the order is invalid.
+when the order is invalid. The orders are matched on the buy and sell side based on Price-Time priority. As 
+soon as a matching order is found on the buy or sell side for a received order on the sell or buy side, the
+trade is executed by the executor and orders within the datasets are updated.
 
 ## Software Architecture Highlights:
 
